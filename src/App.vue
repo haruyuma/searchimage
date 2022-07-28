@@ -14,7 +14,9 @@
         <img :src="item.urls.regular">
       </a>
     </div>
+
   </div>
+
 </template>
 
 <script>
@@ -44,5 +46,10 @@
 <style>
   .App{
     text-align: center;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
   }
 </style>
